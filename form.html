@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body  style="background: linear-gradient(to right, #70a4db4f, #1a2a8eda);">
+    <h1 class="log">Login form </h1>
+    <form id="loginForm" class="Mohan">
+      <label> Name<span style="color: red;">*</span>
+       <input class="name" type="text" name="username" placeholder="username" required/>
+      </label>
+     <label> Password<span style="color: red;">*</span>
+        <input class="pass" type="password" name="password" placeholder="password" required/>
+        </label>
+     <label> date of birth
+        <input class="date" type="date"   name="date" placeholder="date"/>
+     </label> 
+     <label> Contact <span style="color: red;">*</span>
+        <input class="ph" type="number" name="number" placeholder="number" required/>
+     </label>
+     <label> Gender<span style="color: red;">*</span> </label>
+      <div class="gender-options">
+         <label><input type="radio" name="gender" value="male" required /> Male</label>
+         <label><input type="radio" name="gender" value="female" /> female</label>
+         <label><input type="radio" name="gender" value="other" /> other</label>
+      </div>
+
+
+     </label>
+<div class="center">
+   <button class="button" type="button" id="submitBtn">submit</button>
+</div>
+ <p id="error" style="color:red;text-align:center;"></p>
+</form> 
+<script src="script.js"></script>
+</body>
+</html>
+
+
+    
